@@ -1,7 +1,7 @@
 function GCF(arr) {
   let firstFactors = [];
   let secondFactors = [];
-  arr = arr.sort(function(a,b) { return a - b });
+  arr = arr.sort(function(a,b) { return a - b; } );
   for (let i = 1; i <= arr[0]; i++) {
     if (arr[0] % i === 0) {
       firstFactors.push(i);
